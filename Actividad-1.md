@@ -124,4 +124,7 @@ Ver los resultados:
 ```
 hadoop fs -cat /home/hadoop/output/actividad1/part-00000
 ```
-
+Si deseas eliminar la salida para futuras ejecuciones
+```
+hadoop fs -rm -r /home/hadoop/output/actividad1/part-00000
+```
