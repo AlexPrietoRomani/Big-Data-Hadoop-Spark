@@ -1,0 +1,5 @@
+Alice;Tienda1;50
+Alice;Tienda2;20
+Bob;Tienda1;30
+Alice;Tienda1;100
+Bob;Tienda1;20
