@@ -25,17 +25,27 @@ cd actividad1
 ```
 
 ### Creamos el txt:
+
+Para el caso de que los datos sean muy pocos y se pueda copiar los datos manualmente
 ```
 nano casoDePrueba.txt
 ```
 
+Para el caso de ser datos grandes
+```
+cp "Ruta especifica del archivo en Windows añadiendo /mnt" "Ruta en Ubuntu"
+```
+ejemplo:
+```
+cp /mnt/c/Temp/cite75_99.txt /home/hadoop/actividad2
+```
 Ingresamos la data: copiamos la dara de casoDePrueba.txt
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
 ## Paso 2:
 ### Caso con código python:
-#### Creamos el mapper:
+#### 1. Creamos el mapper:
 ```
 nano mapper.py
 ```
@@ -49,7 +59,7 @@ Guardamos(Ctrl+S) y salimos(Ctrl+X)
 chmod +x mapper.py
 ```
 
-#### Creamos el combiner:
+#### 2. Creamos el combiner:
 ```
 nano combiner.py
 ```
@@ -63,7 +73,7 @@ Guardamos(Ctrl+S) y salimos(Ctrl+X)
 chmod +x combiner.py
 ```
 
-#### Creamos el reducer:
+#### 3. Creamos el reducer:
 ```
 nano reducer.py
 ```
@@ -127,5 +137,5 @@ hadoop fs -cat /home/hadoop/output/actividad1/part-00000
 ```
 Si deseas eliminar la salida para futuras ejecuciones
 ```
-hadoop fs -rm -r /home/hadoop/output/actividad1/part-00000
+hadoop fs -rm -r /home/hadoop/output/actividad1/part-00000 | head
 ```
