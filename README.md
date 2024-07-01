@@ -29,14 +29,15 @@ Dado un dataset que contenga entradas con la forma “persona;tienda;gasto”, c
 
 Alice;Tienda1;50   
 Alice;Tienda2;20    
-Bob;Tienda1;30
-Alice;Tienda1;100
-Bob;Tienda1;20
+Bob;Tienda1;30    
+Alice;Tienda1;100    
+Bob;Tienda1;20    
 
 - Salida esperada:
-Alice;Tienda1;75
-Alice;Tienda2;20
-Bob;Tienda1;25
+
+Alice;Tienda1;75    
+Alice;Tienda2;20    
+Bob;Tienda1;25    
 
 ```
 Leer el archivo Actividad-1.md
