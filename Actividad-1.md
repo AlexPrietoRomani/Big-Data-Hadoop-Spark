@@ -112,6 +112,7 @@ Ejecuta el siguiente comando para iniciar el trabajo:
 hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.4.0.jar \
 -files /home/hadoop/actividad1/mapper.py,/home/hadoop/actividad1/reducer.py \
 -mapper /home/hadoop/actividad1/mapper.py \
+-combiner /home/hadoop/actividad1/combiner.py \
 -reducer /home/hadoop/actividad1/reducer.py \
 -input /home/hadoop/input/actividad1/casoDePrueba.txt \
 -output /home/hadoop/output/actividad1
