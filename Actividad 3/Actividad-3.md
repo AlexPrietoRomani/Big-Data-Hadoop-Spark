@@ -44,13 +44,13 @@ Guardamos(Ctrl+S) y salimos(Ctrl+X)
 ```
 nano mapperPersonasQueCompranEnMuchasTiendas.py
 ```
----------
+
 Nota:
 Dentro de la carpeta personasQueCompranEnMuchasTiendas de la Actividad 3, tendremos el archivo "mapperPersonasQueCompranEnMuchasTiendas.py" el cual posee errores, tienes que identificar y corregir los errores.
----------
+
 Solución:
 Dentro de la carpeta Solución de la Actividad 3, se encuentra "mapperPersonasQueCompranEnMuchasTiendas.py" que es el archivo corregido, el cual podemos usar de referencia para copiarlo.
----------
+
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
 #### Hacemos que sea ejecutable:
@@ -62,13 +62,13 @@ chmod +x mapperPersonasQueCompranEnMuchasTiendas.py
 ```
 nano combinerPersonasQueCompranEnMuchasTiendas.py
 ```
----------
+
 Nota:
 Dentro de la carpeta personasQueCompranEnMuchasTiendas de la Actividad 3, tendremos el archivo "combinerPersonasQueCompranEnMuchasTiendas.py" el cual posee errores, tienes que identificar y corregir los errores.
----------
+
 Solución:
 Dentro de la carpeta Solución de la Actividad 3, se encuentra "combinerPersonasQueCompranEnMuchasTiendas.py" que es el archivo corregido, el cual podemos usar de referencia para copiarlo.
----------
+
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
@@ -84,10 +84,10 @@ nano reducerPersonasQueCompranEnMuchasTiendas.py
 ---------
 Nota:
 Dentro de la carpeta personasQueCompranEnMuchasTiendas de la Actividad 3, tendremos el archivo "reducerPersonasQueCompranEnMuchasTiendas.py" el cual posee errores, tienes que identificar y corregir los errores.
----------
+
 Solución:
 Dentro de la carpeta Solución de la Actividad 3, se encuentra "reducerPersonasQueCompranEnMuchasTiendas.py" que es el archivo corregido, el cual podemos usar de referencia para copiarlo.
----------
+
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
