@@ -37,7 +37,7 @@ cp "Ruta especifica del archivo en Windows añadiendo /mnt" "Ruta en Ubuntu"
 ```
 ejemplo:
 ```
-cp /mnt/c/Temp/cite75_99.txt /home/hadoop/actividad2
+cp /mnt/c/Temp/casoDePrueba.txt /home/hadoop/actividad1
 ```
 Ingresamos la data: copiamos la dara de casoDePrueba.txt
 
