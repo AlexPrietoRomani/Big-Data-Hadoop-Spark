@@ -24,7 +24,7 @@ Podemos observar la carpeta creada
 cd actividad1
 ```
 
-![Creación de carpea](imagenes/Paso-1.jpg "Creación de carpeta")
+![Creación de carpea](.\imagenes/Paso 1.jpg "Creación de carpeta")
 
 ### Creamos el txt:
 
@@ -32,7 +32,7 @@ Para el caso de que los datos sean muy pocos y se pueda copiar los datos manualm
 ```
 nano casoDePrueba.txt
 ```
-![Creación de data](imagenes/Paso2-creardata.jpg "Creación de casoDePrueba.txt")
+![Creación de data](.\imagenes/Paso2-creardata.jpg "Creación de casoDePrueba.txt")
 
 Para el caso de ser datos grandes
 ```
