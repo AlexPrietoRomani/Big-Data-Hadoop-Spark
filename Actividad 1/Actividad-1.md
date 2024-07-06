@@ -24,7 +24,7 @@ Podemos observar la carpeta creada
 cd actividad1
 ```
 
-![Creación de carpea](.\imagenes/Paso 1.png "Creación de carpeta")
+![Creación de carpea]([Actividad 1/imagenes/Paso 1.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Paso%201.png) "Creación de carpeta")
 
 ### Creamos el txt:
 
@@ -32,7 +32,7 @@ Para el caso de que los datos sean muy pocos y se pueda copiar los datos manualm
 ```
 nano casoDePrueba.txt
 ```
-![Creación de data](.\imagenes/Paso2-creardata.png "Creación de casoDePrueba.txt")
+![Creación de data]([.\imagenes/Paso2-creardata.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Paso2-creardata.png) "Creación de casoDePrueba.txt")
 
 Para el caso de ser datos grandes
 ```
@@ -46,7 +46,7 @@ Ingresamos la data: copiamos la dara de casoDePrueba.txt
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
-![Ingrasamos de data](.\imagenes/Paso2-data.png "Ingresamos data en casoDePrueba.txt")
+![Ingrasamos de data]([.\imagenes/Paso2-data.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Paso2-data.png) "Ingresamos data en casoDePrueba.txt")
 
 ## Paso 2:
 ### Caso con código python:
@@ -59,7 +59,7 @@ Dentro del archivo copiamos el código de mapper.py
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
-![Mapper](.\imagenes/CrearMapper.png "Mapper.py")
+![Mapper]([.\imagenes/CrearMapper.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/CrearMapper.png) "Mapper.py")
 
 #### Hacemos que sea ejecutable:
 ```
@@ -75,7 +75,7 @@ Dentro del archivo copiamos el código de combiner.py
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
-![Combiner](.\imagenes/CrearCombiner.png "Combiner.py")
+![Combiner]([.\imagenes/CrearCombiner.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/CrearCombiner.png) "Combiner.py")
 
 #### Hacemos que sea ejecutable:
 ```
@@ -91,13 +91,13 @@ Dentro del archivo copiamos el código de reducer.py
 
 Guardamos(Ctrl+S) y salimos(Ctrl+X)
 
-![Reducer](.\imagenes/CrearReducer.png "Reducer.py")
+![Reducer]([.\imagenes/CrearReducer.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/CrearReducer.png) "Reducer.py")
 
 #### Hacemos que sea ejecutable:
 ```
 chmod +x reducer.py
 ```
-![Paso2final](.\imagenes/Paso2final.png "Paso2final")
+![Paso2final]([.\imagenes/Paso2final.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Paso2final.png) "Paso2final")
 
 #### Probar localmente:
 
@@ -106,7 +106,7 @@ Ejecuta el siguiente comando para probar localmente:
 cat casoDePrueba.txt | ./mapper.py | sort | ./combiner.py | sort | ./reducer.py
 ```
 
-![Probar en Local](.\imagenes/Probarejecución.png "Probarejecución")
+![Probar en Local]([.\imagenes/Probarejecución.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Probarejecuci%C3%B3n.png) "Probarejecución")
 
 ## Paso 3:
 
@@ -138,7 +138,7 @@ http://localhost:9870
 http://localhost:8088
 ```
 
-![IniciarHadoop](.\imagenes/IniciarHadoop.png "IniciarHadoop")
+![IniciarHadoop]([.\imagenes/IniciarHadoop.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/IniciarHadoop.png) "IniciarHadoop")
 
 - Crea un directorio de entrada en HDFS:
 ```
@@ -155,7 +155,7 @@ hadoop fs -put casoDePrueba.txt /home/hadoop/input/actividad1
 hdfs dfs -ls /home/hadoop/input/actividad1
 ```
 
-![Copiar data a HDFS](.\imagenes/Copiar data a HDFS.png "Copiar data a HDFS")
+![Copiar data a HDFS]([.\imagenes/Copiar data a HDFS.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Copiar%20data%20a%20HDFS.png) "Copiar data a HDFS")
 
 - En caso equivocarte, puedes eliminar el archivo creado con:
 ```
@@ -177,7 +177,7 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.4.0.jar \
 -output /home/hadoop/output/actividad1
 ```
 
-![Paso3 EjecutarHadoop](.\imagenes/Paso3 EjecutarHadoop.png "Paso3 EjecutarHadoop")
+![Paso3 EjecutarHadoop]([.\imagenes/Paso3 EjecutarHadoop.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Paso3%20EjecutarHadoop.png) "Paso3 EjecutarHadoop")
 
 ## Paso 5:
 ### Verificar los resultados:
@@ -187,7 +187,7 @@ Ver los resultados:
 hadoop fs -cat /home/hadoop/output/actividad1/part-00000 | head
 ```
 
-![Paso3 ResultEjecutarHadoop](.\imagenes/Paso3 ResultEjecutarHadoop.png "Paso3 ResultEjecutarHadoop")
+![Paso3 ResultEjecutarHadoop]([.\imagenes/Paso3 ResultEjecutarHadoop.png](https://github.com/AlexPrietoRomani/Hadoop-MappReduce-Linux/blob/325a9697c861321b23faa64fb6e2e494580048c0/Actividad%201/imagenes/Paso3%20ResultEjecutarHadoop.png) "Paso3 ResultEjecutarHadoop")
 
 Si deseas eliminar la salida para futuras ejecuciones
 ```
