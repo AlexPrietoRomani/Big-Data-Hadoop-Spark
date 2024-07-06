@@ -98,6 +98,32 @@ cat casoDePrueba.txt | ./mapper.py | sort | ./combiner.py | sort | ./reducer.py
 
 ### Preparar Hadoop para la ejecución
 
+** Inicio de Hadoop:**
+- Iniciar el clúster de Hadoop:
+```
+start-dfs.sh
+```
+
+- Inicie el administrador de nodos y el administrador de recursos:
+```
+start-yarn.sh
+```
+
+- Para comprobar si los servicios se ejecutan según lo previsto, utilice el siguiente comando:
+```
+jps
+```
+
+- Accede al nodo Namenode:
+```
+http://localhost:9870
+```
+
+- Acceda a Hadoop Resource Manager:
+```
+http://localhost:8088
+```
+
 Crea un directorio de entrada en HDFS:
 ```
 hadoop fs -mkdir -p /home/hadoop/input/actividad1
