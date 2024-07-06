@@ -24,7 +24,7 @@ Podemos observar la carpeta creada
 cd actividad1
 ```
 
-![Creación de carpea](.\imagenes/Paso 1.jpg "Creación de carpeta")
+![Creación de carpea](Actividad 1/imagenes/Paso 1.png.jpg "Creación de carpeta")
 
 ### Creamos el txt:
 
