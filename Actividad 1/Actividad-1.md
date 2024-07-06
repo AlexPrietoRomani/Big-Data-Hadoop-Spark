@@ -124,19 +124,24 @@ http://localhost:9870
 http://localhost:8088
 ```
 
-Crea un directorio de entrada en HDFS:
+- Crea un directorio de entrada en HDFS:
 ```
 hadoop fs -mkdir -p /home/hadoop/input/actividad1
 ```
 
-Copia el archivo de entrada a HDFS:
+- Copia el archivo de entrada a HDFS:
 ```
 hadoop fs -put casoDePrueba.txt /home/hadoop/input/actividad1
 ```
 
-Para visualizar el archivo en la carpeta de hdfs:
+- Para visualizar el archivo en la carpeta de hdfs:
 ```
 hdfs dfs -ls /home/hadoop/input/actividad1
+```
+
+- En caso equivocarte, puedes eliminar el archivo creado con:
+```
+hdfs dfs -rm /home/hadoop/input/actividad1/casoDePrueba.txt
 ```
 
 ## Paso 4:
